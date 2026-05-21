@@ -1,0 +1,75 @@
+#orderSummary {
+    margin: 0 auto;
+    width: 450px;
+    /* border: blueviolet 0.5px solid; */
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+#orderSummary-image {
+    /* border: solid 0.5px green; */
+    width: fit-content;
+    width: 450px;
+}
+#orderSummary-image > img {
+    /* border: solid red 5px; */
+    border-radius: 10px 10px 0px 0px;
+    padding: 0;
+    display: block;
+}
+#orderSummary-text {
+    /* border: solid purple 1px; */
+    padding: 0;
+    box-sizing: border-box;
+}
+#orderSummary-text > h3 {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: 24px;
+    margin: 3vh auto;
+    width: fit-content;
+}
+#orderSummary-text > p {
+    text-align: center;
+    width: 70%;
+    color: var(--Desaturated-blue);
+    margin: auto;
+    font-size: 16px;
+}
+#orderSummary-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 3vh;
+    margin: 0 auto;
+}
+#orderSummary-buttons > button {
+    border: var(--Pale-blue);
+    border-radius: 10px 10px 10px 10px;
+    height: 6vh;
+    font-weight: 900;
+}
+
+#orderSummary-buttons > #button1 {
+    background-color: var(--Bright-blue);
+    border: var(--Pale-blue);
+    border-radius: 10px 10px 10px 10px;
+    height: 6vh;
+    font-weight: 900;
+    color: var(--Pale-blue);
+}
+#orderSummary-buttons > #button2 {
+    background-color: var(--Very-pale-blue);
+    border: var(--Pale-blue);
+    border-radius: 10px 10px 10px 10px;
+    height: 6vh;
+    font-weight: 900;
+    color: var(--Desaturated-blue);
+}
+#orderSummary-buttons > #button1:hover {
+    background-color: var(--Desaturated-blue);
+}
+#orderSummary-buttons > #button2:hover {
+    color: var(--Dark-blue);
+}
