@@ -1,12 +1,13 @@
 import "./orderSummary.css";
 import OrderPlan from "./orderPlan/OrderPlan";
+import heroImage from "../../assets/images/illustration-hero.svg";
 
 const OrderSummary = ({ nombre }: { nombre: string }) => {
     return (
         <div id="orderSummary">
             <div id="orderSummary-image">
                 {/* Se usara una ruta absoluta, pero puede tener problemas a futuro */}
-                <img src="/src/assets/images/illustration-hero.svg" alt="Imagen de Hero" />
+                <img src={heroImage} alt="Imagen de Hero" />
             </div>
             <div id="orderSummary-text">
                 <h3> {nombre} </h3>
